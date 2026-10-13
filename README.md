@@ -87,6 +87,17 @@ OrangeHRM/
 
 \---
 
+## 📊 Test Reports
+
+View the latest test results with detailed traces and screenshots:
+
+**[Live Playwright Test Report](https://jgupta-git.github.io/ui-automation-playwright-javascript/playwright-report/index.html)**
+
+- ✅ All tests passing
+- 📈 Real-time metrics and traces
+- 🎬 Screenshots and videos of test execution
+\---
+
 ## Quick Start
 
 ### 1\. Prerequisites
@@ -298,7 +309,7 @@ export default defineConfig({
 ## GitHub Repository
 
 ```
-https://github.com/jgupta-git/orangehrm-playwright-tests
+https://github.com/jgupta-git/ui-automation-playwright-javascript
 ```
 
 \---
