@@ -75,7 +75,9 @@ test.describe.serial('@positive - Employee Transactions', () => {
     await searchEmployee.fillEmployeeDetailsToSearch(employeeData.firstName);
 
     await page.waitForTimeout(10000); // Wait for 2 seconds to allow search results to load
-    const photoPath = 'C:\\Users\\jigya\\Downloads\\OrangeHRM\\src\\assets\\av1.png';
+    //const photoPath = 'C:\\Users\\jigya\\Downloads\\OrangeHRM\\src\\assets\\av1.png';
+    //await uploadEmployeeImageInstance.uploadEmployeeImage(photoPath);
+    const photoPath = path.join(process.cwd(), 'src/assets/av1.png');
     await uploadEmployeeImageInstance.uploadEmployeeImage(photoPath);
   });
 
