@@ -37,7 +37,7 @@ Tagging System: @positive, @negative
 ## Project Structure
 
 ```
-OrangeHRM/
+ui-automation-playwright-javascript/
 ├── playwright.config.ts              # Playwright configuration
 ├── package.json                      # Dependencies and scripts
 ├── tsconfig.json                     # TypeScript configuration
